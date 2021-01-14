@@ -6,10 +6,10 @@
 	padding: 1em 10vw 1em;
 	
 }
-.left{
+.left1{
 	margin-left: -100px;
 }
-.right{
+.right1{
 	margin-right: -100px;
 }
 
@@ -147,10 +147,10 @@ input[type=file]::before{
 	::-webkit-scrollbar {
 		width: 8px;
 	  }
-	  .left{
+	  .left1{
 		margin-left: -50px;
 	}
-	.right{
+	.right1{
 		margin-right: -50px;
 	}
 	.pad1{
