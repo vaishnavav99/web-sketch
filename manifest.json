@@ -1,0 +1,11 @@
+{
+    "name": "EpochZero",
+    "description": "All  Starts Here",
+    "background_color": "#1d1e21",
+    "theme_color": "#1d1e21",
+    "icons": [{
+      "src": "images/logo2.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }]
+  }

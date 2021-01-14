@@ -1,0 +1,231 @@
+.page_content{
+	padding: 6em 10vw 2em;
+	
+}
+.page_content_bottom{
+	padding: 1em 10vw 1em;
+	
+}
+.left{
+	margin-left: -100px;
+}
+.right{
+	margin-right: -100px;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #1d1e21; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #1d1e21; 
+  }
+
+.dead{
+	overflow: hidden;
+	
+}
+
+.Desc{
+	margin-top: 5%;
+}
+input[type=file]::-webkit-file-upload-button{
+	visibility: hidden;	
+}
+
+input[type=file]::before{
+	content: "Upload Resume";
+	font-size: small;
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+	color: #cecece;
+	margin-right: -5em;
+    background-color: #1d1e21;
+}
+.con-info{
+	padding: 10px;
+	padding-bottom: 40px;
+}
+.carousel-indicators{
+	margin-bottom: -50px;
+}
+.carousel .carousel-indicators li {
+	width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+.fixed{
+	min-height: 3em;
+	max-height: 12em;
+}
+
+.im{
+    width:  100px;
+    height: 100px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.x{
+	display: block;
+}
+.al{
+	margin-left: 10%;
+	font-size: large;
+	font-weight: 500;
+}
+
+.m1{
+	padding-top: 20px;
+}
+.copy{
+	writing-mode: tb-rl;
+	right: -3px;
+	bottom: -1px;
+	position:absolute;
+	opacity: 0.3;
+	font-weight: 600;
+	font-size: 15px;
+	text-orientation: sideways;
+	cursor: default;
+}
+  
+
+.home{
+	text-align: center;
+	
+}
+.home h1{
+	font-size: 60px;
+	font-weight: 500;
+}
+.home h6{
+	font-size: 20px;
+}
+.pad{
+	height:80px;
+}
+
+
+@media screen and (max-width: 40em) {
+	.page_content_bottom {
+		padding: 50px 20px 1em;
+	}
+	.dead{
+		overflow: hidden;
+		max-width:15em;
+	}
+	input[type=file]::before{
+		margin-right: -100px;
+		background-color: #1d1e21;
+	}
+	.m{
+		padding-top: 40px;
+	}
+	.pad{
+		text-align: justify;
+	}
+	
+	::-webkit-scrollbar {
+		width: 8px;
+	  }
+	  .left{
+		margin-left: -50px;
+	}
+	.right{
+		margin-right: -50px;
+	}
+	.pad{
+		height:130px;
+	}
+}
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats .fa {
+  color:#0069d9;
+  font-size: 20px;
+}
+
+/*/ end count stats /*/
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:  #2a2b30;
+	/* change if the mask should have another color then white */
+	z-index: 99;
+	/* makes sure it stays on top */
+  }
+  
+  #status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	/* centers the loading animation horizontally one the screen */
+	top: 50%;
+	/* centers the loading animation vertically one the screen */
+	background-image: url("../images/logo1.png");
+	/* path to your loading animation */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px;
+	margin: -100px 0 0 -100px;
+	/* is width and height divided by two */
+  }
+
+  #intro{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+  
+  #home {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	/* centers the loading animation horizontally one the screen */
+	top: 50%;
+	/* centers the loading animation vertically one the screen */
+	margin: -100px 0 0 -100px;
+	/* is width and height divided by two */
+  }
+
+  
+
+  
