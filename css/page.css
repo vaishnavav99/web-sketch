@@ -120,7 +120,7 @@ input[type=file]::before{
 .home h6{
 	font-size: 20px;
 }
-.pad{
+.pad1{
 	height:80px;
 }
 
@@ -153,7 +153,7 @@ input[type=file]::before{
 	.right{
 		margin-right: -50px;
 	}
-	.pad{
+	.pad1{
 		height:130px;
 	}
 }
